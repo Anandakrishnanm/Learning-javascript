@@ -67,4 +67,6 @@ console.log("Students with age 18 : ",std4);
 const std5 = stdnts.map(item=> [item.Fname,item.Lname].join(" "));
 console.log("After Mapping for fullname: ",std5);
 
+const std6 = stdnts.reverse();
+console.log("Reverse of array: ",std6);
 
