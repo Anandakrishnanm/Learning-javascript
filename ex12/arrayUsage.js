@@ -1,0 +1,14 @@
+let first = ['one',2,true];
+console.log("Accesing array element in index 1 : ", first[1]);
+first.pop();
+console.log("After pop: ",first);
+first.push(false);
+console.log("After push: ",first);
+first.shift();
+console.log("After shift: ",first);
+first.unshift(1);
+console.log("After unshift: ",first);
+first.splice(1,2,'two','three');
+console.log("After splice: ",first);
+console.log("After slice: ",first.slice(1,3));
+console.log("Using spread operator: ",[0,...first,4,5]);
